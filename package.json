@@ -1,0 +1,28 @@
+{
+  "name": "zentra",
+  "version": "1.0.0",
+  "description": "Zentra - Decentralized Lending Platform on NERO Chain",
+  "private": true,
+  "workspaces": [
+    "frontend",
+    "contracts"
+  ],
+  "scripts": {
+    "dev": "npm run dev --workspace=frontend",
+    "build": "npm run build --workspace=frontend",
+    "start": "npm run start --workspace=frontend",
+    "deploy": "npm run deploy:nero --workspace=contracts",
+    "test:connection": "npm run test:connection --workspace=contracts",
+    "test:flow": "npm run test:flow --workspace=contracts",
+    "install:all": "npm install && cd frontend && npm install && cd ../contracts && npm install"
+  },
+  "keywords": [
+    "defi",
+    "lending",
+    "nero-chain",
+    "blockchain",
+    "web3"
+  ],
+  "author": "",
+  "license": "MIT"
+}
