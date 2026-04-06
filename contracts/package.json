@@ -1,0 +1,20 @@
+{
+  "name": "zentra-contracts",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "compile": "hardhat compile",
+    "deploy:nero": "hardhat run deploy.js --network neroTestnet",
+    "deploy:nero-mainnet": "hardhat run deploy.js --network neroMainnet",
+    "test:connection": "node test-connection.js",
+    "test:flow": "node test-full-flow.js",
+    "verify": "hardhat verify --network neroTestnet"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-ethers": "^3.0.0",
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "dotenv": "^16.4.0",
+    "ethers": "^6.11.0",
+    "hardhat": "^2.22.0"
+  }
+}
