@@ -45,3 +45,4 @@ typechain-types/
 
 # Misc
 *.pem
+node_modules/
