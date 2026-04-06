@@ -1,3 +1,5 @@
+<img width="1470" height="832" alt="Screenshot 2026-04-07 at 1 57 39 AM" src="https://github.com/user-attachments/assets/253557fb-328a-4185-8a6c-ca09b44b6631" />
+
 # Zentra - Decentralized Lending Platform on NERO Chain
 
 A trust-based decentralized lending platform built on NERO Chain, enabling peer-to-peer lending through trust circles and on-chain credit scoring.
